@@ -1,0 +1,194 @@
+@font-face 
+{
+	  font-family: 'FuturaBT-Medium';
+	  src: url('../fonts/FuturaBT-Medium.eot?#iefix') format('embedded-opentype'),
+		   url('../fonts/FuturaBT-Medium.woff') format('woff'), 
+	       url('../fonts/FuturaBT-Medium.ttf')  format('truetype'), 
+	       url('../fonts/FuturaBT-Medium.svg#FuturaBT-Medium') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+}
+@font-face {
+  font-family: 'FuturaBT-Bold';
+  src: url('../fonts/FuturaBT-Bold.eot?#iefix') format('embedded-opentype'),
+	  url('../fonts/FuturaBT-Bold.woff') format('woff'),
+	  url('../fonts/FuturaBT-Bold.ttf')  format('truetype'),
+	  url('../fonts/FuturaBT-Bold.svg#FuturaBT-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body
+{
+	resize:horizontal !important;
+	font-family: 'FuturaBT-Medium';
+	
+}
+.main_container
+{
+	width:1200px;
+	height:700px;
+	resize:horizontal !important;
+	background-image:url("../img/bg.png");
+	background-size:100% 100%;
+}
+.pnt_tpl
+{
+	padding-top: 5px;
+}
+.points_main_tpl_header
+{
+	width: 94%;
+	margin:0 auto;
+	/*background-image: url("../img/PointsTableBox.png");
+	background-size: 100% 100%;*/
+}
+.points_tpl_header 
+{
+	text-transform:uppercase;
+	text-align:center;
+	color:#fff;
+	font-family: 'FuturaBT-Bold';
+	
+}
+.points_tpl_header  h3
+{
+	font-size: 47px;
+font-weight: bold;
+}
+.points_table
+{
+	width: 92.5%;
+	margin:0 auto;
+}
+.logo_right
+{
+	padding-top:30px;
+}
+.points_table tr th:nth-child(1),.points_table tr td:nth-child(1)
+{
+	width:20%;
+}
+.points_table tr th:nth-child(2),.points_table tr td:nth-child(2)
+{
+	width:31%;
+	text-align:left !important;
+}
+.points_table tr th:nth-child(3),.points_table tr td:nth-child(3)
+{
+	width:20%;
+}
+.points_table tr
+{
+	line-height:60px;
+}
+.points_table tr th:nth-child(4),.points_table tr td:nth-child(4),
+.points_table tr th:nth-child(5),.points_table tr td:nth-child(5),
+.points_table tr th:nth-child(6),.points_table tr td:nth-child(6)
+{
+	width:10%;
+}
+
+.points_table tr td,.points_table tr th
+{
+	text-transform:uppercase;
+}
+.points_table tr th
+{
+	font-size:25px;
+	text-align:center;
+}
+.points_table tr td
+{
+	color:#fff;
+	font-size:25px;
+	font-weight:bold;
+	text-align:center;
+}
+.points_top_up_teams td:nth-child(2)
+{
+	letter-spacing:3px;
+}
+.p_team_name
+{
+	padding-left: 8%;
+}
+.points_table tr td:nth-child(6),.points_table tr th:nth-child(6)
+{
+	padding-right:20px;
+}
+.points_table_rheader
+{
+	/*background-image:url("../img/PointsTable white.png") !important;
+	background-size:100% 100%;*/
+	background:#fff;
+	line-height:54px;
+}
+.points_table tr 
+{
+	background-image:url("../img/tpl_row.png");
+	background-size:100% 100%;
+	border:0px;
+	border-collapse:collapse;
+	border-spacing:0px;	
+ 
+}
+.points_top_teams
+{
+	background-image:url("../img/PointsTable white.png");
+	background-size:100% 100%;
+}
+.points_top_up_teams 
+{
+	background-image:url("../img/Points Table Dark brown box.png") !important;
+	background-size: cover;
+	 background-attachment: fixed;
+    height: 62px;
+	
+	
+}
+.points_table tr td table tr td
+{
+	text-transform:uppercase;
+}
+.team_tpl_c tr td
+{
+	width:50px !important; 
+}
+.team_tpl_c tr
+{
+	background:transparent !important;
+}
+.recent_form_red
+{
+	
+	background: #F80F35;
+	width:32px !important;
+	height:29px !important;
+}
+.recent_form_green
+{
+	background:#009F3C;
+	width:32px !important;
+	height:29px !important;
+}
+.ponts_indicates
+{
+	    border-collapse: collapse;
+		border-spacing: 0px;
+		border: 0px;
+}
+.team_tpl_c
+{
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border: 0px;
+}
+.team_tpl_c tr td,.ponts_indicates tr td
+{	
+  padding:0px 0;
+}
+
+.points_top_up_teams > td:nth-child(1) > table > tr > td
+{
+	background-color:transparent !important;
+}
